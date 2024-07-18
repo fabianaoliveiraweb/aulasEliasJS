@@ -41,8 +41,3 @@ function cinema(a, b, idade) {
 }
 cinema(); //só chamo a função
 
-/*Tarefas
-Na compra em um minimercado, entrou com 100 reais, ele tem q comprar 1 saco de arroz, 1 saco de açúcar, 
-1 saco de feijão, 1 saco de sal. Ver se o dinheiro deu, dar o troco, senão, troco é negativo, retirar produtos do carrinho. 
-Criar variáveis pra cada produto e para o dinheiro na carteira. 
-*/
