@@ -20,5 +20,7 @@ function mostrarMensagem() {
         nroFilhos = prompt("Você não possui filhos.");        
     }  
     
-    alert(mensagem);
+    alert(mensagem);    
+    const resultadoDiv = document.getElementById("resultado");
+    resultadoDiv.textContent = mensagem;
 }
