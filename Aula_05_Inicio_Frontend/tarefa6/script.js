@@ -1,15 +1,15 @@
-/*Tarefa 4
-->nome, idade, cidade, estado civil, número da casa e número de filhos (caso seja casado)*/
+/**Armazene o nome em uma variável nome, a idade em uma variável idade, a cidade em 
+uma variável cidade, o estado civil em uma variável estadoCivil, o número da casa 
+em uma variável numeroCasa e o número de filhos (se aplicável) em uma variável 
+numeroFilhos. */
 
 function mostrarMensagem() {
     let nome = prompt("Digite o seu nome: ");
-    let idade = prompt("Digite sua idade: ");
+    let idade = parseInt(prompt("Digite sua idade: "));
     let cidade = prompt("Digite sua cidade: ");
     let estCivil = prompt("Digite seu estado civil: [solteiro ou casado]");
-    let nroCasa = prompt("Digite o nro da casa: ");
-    let nroFilhos = 0;
-
-    let idadeNum = parseInt(idade);    
+    let nroCasa = parseInt(prompt("Digite o nro da casa: "));
+    let nroFilhos = parseInt(0);  
 
     let mensagem = "Olá, seja bem vindo! Seu nome é " + nome + " tem idade de " + idade + " mora em " + cidade + " o número da casa é " + nroCasa + " seu estado civil é " + estCivil;
 
