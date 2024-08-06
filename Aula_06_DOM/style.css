@@ -24,3 +24,24 @@ button {
   #mostrarMensagem {
     margin: 1.5em 0;
   }
+
+  #bgTexto {
+    background-color: #f1f1f1;   
+    color:rgb(108, 108, 108);
+    font-size: 0.4em;
+    line-height: 36px;
+    padding: 1em 2em;
+    text-align: justify;
+  }
+
+  #btn1 {
+    float:left;   
+    margin-top: 2em;
+    text-align: center; 
+  }
+
+  #btn2 {
+    float:right; 
+    margin-top: 2em;
+    text-align: center;   
+  }
